@@ -177,14 +177,14 @@ nav ul, nav ol{margin: 0; padding: 0; list-style: none;}
 	visibility: visible;
 	opacity: 1;
 }
-#main-navbar li li .drop::after{top: 15px; left: 5px;}
+/*#main-navbar li li .drop::after{top: 15px; right: 5px;}
 #main-navbar .drop::after, #main-navbar li li .drop::after{
 	content: "\f0d7";
 	position: absolute;
 	font-family: "FontAwesome";
 	font-size: 10px;
 	line-height: 10px;
-}
+}*/
 #main-navbar .active a, #main-navbar a:hover, #main-navbar li:hover > a{
 	color: #FFF;
 	font-size: 1.1rem;
