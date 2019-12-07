@@ -4,6 +4,10 @@ body{
 	font-size: 18px;
 }
 
+header{
+	background: #8e44ad;
+}
+
 #wrapper{
 	display: flex;
 	max-width: 1200px;
@@ -11,40 +15,41 @@ body{
 	margin-top: 40px;
 }
 
-#main-section{
+#wrapper #main-section{
 	flex: 0 1 65%;
 	margin-right: 40px;
 }
 
-#side-section{
+#wrapper #side-section{
 	flex: 0 0 30%;
 	border: 1px solid #ececec;
 }
 
 #main-image{
+	height: 400px;
+	width: 100%;
 	background-image: url('img/main.jpg');
-	background-size: 100% 100%;
-	background-attachment: cover;
-	background-position: 0 0;
+	background-size: cover;
+	background-position: 50% 50%;
 }
 
-h1,h4{
+#wrapper h1,h4{
 	font-size: 32px;
 	margin: 0;
 	margin-bottom: 20px;
 	letter-spacing: 0;
 }
 
-h4{
+#wrapper h4{
 	font-size: 24px;
 }
 
-p{
+#wrapper p{
 	margin: 0;
 	margin-bottom: 20px;
 }
 
-#images{
+#wrapper #images{
 	width: 100%;
 	padding: 10px;
 	display: flex;
@@ -53,36 +58,57 @@ p{
 	margin-bottom: 20px;
 }
 
-figure{
+#wrapper figure{
 	flex:  0 0 44%;
 	margin-bottom: 20px;
 }
 
-figure img{
+#wrapper figure img{
 	width: 100%;
 }
 
-figcaption{
+#wrapper figcaption{
 	font-size: 12px;
 	margin: 0;
 	color: #888;
 }
 
-table{
+#wrapper table{
 	border: 1px solid #ececec;
 	width: 100%;
 	margin-bottom: 30px;
 }
 
-th{
+#wrapper th{
 	border-bottom: 1px solid #ececec;
 	border-right: 1px solid #ececec;
 	width: 30%;
 	font-weight: bold;
 }
 
-td{
+#wrapper td{
 	border-bottom: 1px solid #ececec;
+}
+
+
+#wrapper img{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#wrapper #side-list>div{
+	padding: 16px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+#wrapper #ad>div{
+	color: #666;
+}
+
+#wrapper #label{
+	font-size: 16px;
+	margin-bottom: 16px;
 }
 
 tr{
@@ -93,5 +119,3 @@ tr{
 th{
 	font-weight: 500;
 }
-
-
