@@ -49,10 +49,11 @@ p{
 	padding: 10px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 figure{
-	flex:  0 0 23%;
+	flex:  0 0 44%;
 }
 
 figure img{
