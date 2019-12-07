@@ -46,7 +46,7 @@ img{
 html{overflow-x: hidden;overflow-y: scroll;}
 
 html,body{
-	color: #FFF;
+	/*color: #FFF;*/
 	font-size: 13px;
 	margin: 0;
 	padding: 0;
