@@ -3,9 +3,20 @@ body{
 	color: #000;
 	font-size: 18px;
 }
-
 header{
-	background: #8e44ad;
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+	color: #fff !important;
+	height: 80px;
+}
+header>nav>ul ul{
+	background-color: rgba(0,0,0,0.8);
+	color: #fff !important;
+}
+
+#logo{
+	margin: 0;
 }
 
 #wrapper{
@@ -22,15 +33,22 @@ header{
 
 #wrapper #side-section{
 	flex: 0 0 30%;
-	border: 1px solid #ececec;
 }
 
-#main-image{
+#main-image,#bus-main-image,#home-main-image{
 	height: 400px;
 	width: 100%;
 	background-image: url('img/main.jpg');
 	background-size: cover;
 	background-position: 50% 50%;
+}
+
+#bus-main-image{
+	background-image: url('img/busfaremain.jpg');
+}
+
+#home-main-image{
+	background-image: url('img/hmain.jpg');
 }
 
 #wrapper h1,h4{
@@ -118,4 +136,18 @@ tr{
 
 th{
 	font-weight: 500;
+}
+
+
+#fare-form>form{
+	display: flex;
+	flex-direction: column;
+}
+
+#fare-form>form>*{
+	flex: 0 0 100%;
+	border: 1px solid #ececec;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+	font-size: 18px;
 }
