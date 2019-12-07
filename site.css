@@ -1,7 +1,7 @@
 body{
 	font-family: Arial, sans-serif;
 	color: #000;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 #wrapper{
@@ -50,10 +50,12 @@ p{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin-bottom: 20px;
 }
 
 figure{
 	flex:  0 0 44%;
+	margin-bottom: 20px;
 }
 
 figure img{
@@ -68,18 +70,18 @@ figcaption{
 
 table{
 	border: 1px solid #ececec;
-}
-
-tr{
-	border: none;
-	border-bottom: 1px solid #ececec;
+	width: 100%;
+	margin-bottom: 30px;
 }
 
 th{
-	font-weight: 500;
+	border-bottom: 1px solid #ececec;
+	border-right: 1px solid #ececec;
+	width: 30%;
+	font-weight: bold;
 }
 
 td{
-
+	border-bottom: 1px solid #ececec;
 }
 
