@@ -90,6 +90,7 @@ header{
 	border-bottom: 1px solid #ececec;
 }
 
+
 #wrapper img{
 	width: 100%;
 	margin: 0 auto;
@@ -108,4 +109,13 @@ header{
 #wrapper #label{
 	font-size: 16px;
 	margin-bottom: 16px;
+}
+
+tr{
+	border: none;
+	border-bottom: 1px solid #ececec;
+}
+
+th{
+	font-weight: 500;
 }
