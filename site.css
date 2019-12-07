@@ -85,3 +85,13 @@ td{
 	border-bottom: 1px solid #ececec;
 }
 
+tr{
+	border: none;
+	border-bottom: 1px solid #ececec;
+}
+
+th{
+	font-weight: 500;
+}
+
+
